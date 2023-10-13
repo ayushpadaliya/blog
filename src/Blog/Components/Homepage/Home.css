@@ -1,0 +1,166 @@
+#border{
+    border-bottom: #000 1px solid;
+    }
+    .nav-link
+    {
+      color:black;
+    }
+    #navbarText
+    {
+    justify-content:end;
+    font-size:21px;
+    font-weight: bold;
+    /* margin-right: 10%; */
+    }
+    .h{
+      height: 100vh;
+    }
+    .text{
+      color: #000;
+      font-weight: bolder;
+      font-size: 100px;
+      padding: 100px 0px;
+    }
+    .text-1{
+      padding: 10px 0 30px 0 ;
+      font-size: 35px;
+    }
+    .txt-2
+    {
+      font-size: 25px;
+      font-weight:400;
+      text-align: justify;
+    }
+    .btn{
+      padding: 10px 50px;
+      color: #fff;
+      margin: 30px 0 50px 0;
+      background: #000;
+      border-radius: 30px;
+    }
+    .underline {
+      display: inline-block;
+      position: relative;
+      color: 
+    #0087ca;
+    }
+    
+    .underline:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      transform-origin: bottom right;
+      transition: transform 0.50s ease-out;
+    }
+    
+    .underline:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+    /* css of trend.html */
+    .post-left
+    {
+      font-size: 28px;
+      /* padding-left:5px ; */
+      display:flex;
+      margin: auto;
+      flex-direction: row;
+      align-items: center;
+    }
+    .post-text
+    {
+      margin-left: 5px;
+    }
+    .posts
+    {
+      display:flex;
+      width: 100%;
+    }
+    @media screen and (max-width: 600px)
+    {
+    .posts{
+      display:flex;
+      flex-direction: column;
+      width: 90vw;
+      align-items: center;
+    }
+    .post-left{
+      font-size:15px;
+    }
+    } 
+    .open-button {
+      background-color: #555;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      opacity: 0.8;
+      position: fixed;
+      bottom: 23px;
+      right: 28px;
+      width: 280px;
+    }
+    .form-container {
+      max-width: 300px;
+      padding: 10px;
+      background-color: white;
+      box-sizing: border-box;
+      border-color: #000;
+    }
+    .form-container input[type=text], .form-container input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+    }
+    .form-container .cancel {
+      background-color: red;
+    }
+    .form-container .btn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      margin-bottom:10px;
+      opacity: 0.8;
+    }
+    .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    .form-container input[type=text], .form-container input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+    }
+    .modalheader
+    {
+      align-content: center;
+      color:black;
+      font-weight: bold;
+      font-size:30px;
+
+    }
+    .modal-dialog {
+      max-width: 400px;
+      background-color: yellow;
+    }
+    
+    /* Styling for the form within the modal */
+    .modal-body form {
+      padding: 20px;
+      background-color:lavender;
+      font-weight: bold;
+    }
+    
+    
